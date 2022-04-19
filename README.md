@@ -1,3 +1,14 @@
+#React to do list app rendering between 3 components
+Note.js => Used to display the note in the list, also on every note created it generates with it a delete img button on hover
+NoteList.js => Used to display the notes array by the user, also the application options such as input and button. 
+AddNote.js => Used to add notes into the note lists. 
+Also there is Header.js and Footer.js. ( no need to explain ;)
+
+This app was designed by using css and css modules method. 
+This app was created using useState, forms and passing data ( props ) and function between components,
+also using array methods to sort, and filter data. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,6 +16,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+So you can run the npm start command. 
 
 ### `npm start`
 
