@@ -1,10 +1,10 @@
 #React to do list app using 3 components
 
 
-Note.js => Used to display the note in the list, also on every note created it generates with it a delete img button on hover
+Note.js => Used to display the note in the list, also on every note created it generates it with a delete img button on hover
 
 
-NoteList.js => Used to display the notes array by the user, also the application options such as input and button. 
+NoteList.js => Used to display the notes was created by the user ( Array ) , also the application options such as input and button. 
 
 
 AddNote.js => Used to add notes into the note lists. 
