@@ -1,4 +1,4 @@
-#React to do list app rendering between 3 components
+#React to do list app using 3 components
 
 
 Note.js => Used to display the note in the list, also on every note created it generates with it a delete img button on hover
