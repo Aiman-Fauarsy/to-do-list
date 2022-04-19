@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.header__container{
+    background: hsl(232, 68%, 17%);
+    color: white;
+    width: auto;
+    height: auto;
+    padding: 20px 0 20px 64px ;
+}
+
+
+
+.header__container img{
+    width: 60px;
+    height: 60px;
+      
+}
+.header__container span{
+    font-family: 'Grape Nuts',cursive;
+    font-size: 3rem;
+    white-space: 20px;
+    
+    
+
+}

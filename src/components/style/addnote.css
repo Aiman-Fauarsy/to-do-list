@@ -1,0 +1,42 @@
+.addnote__container{
+  margin-top: 20px;
+
+  
+}
+.elements{
+    position: relative;
+}
+
+ input{
+    border: 0;
+    outline: 0;
+    width: 360px;
+    height: 40px;
+    background: 
+    linear-gradient(#000, #000) bottom /calc(100%) 1px no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+
+ 
+}
+
+ button{
+    background:hsl(232, 68%, 17%);
+    width: 100px;
+    height: 40px;
+    color: #FFF;
+    position: absolute;
+
+    margin-left: 10px;
+    cursor: pointer;   
+    border-radius: 10px;
+    
+   
+    
+}
+
+
+@media screen and (max-width:600px) {
+    input{
+        width: auto;
+    }
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Poppins:wght@300;400;500;600&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+.note__container{
+padding-top: 20px;
+}
+.checkbox{
+width: 16px;
+height: 16px;
+
+}
+
+.note{
+   display: grid;
+   grid-template-columns: 30px minmax(auto,700px) 70% ;
+   
+
+}
+.note-style {
+   font-size: 17px;
+   font-family: 'Source Sans Pro', sans-serif;
+   line-height: 1.5;
+   color: #1c1c1c;
+
+
+}
+
+
+#remove__note{
+display: none;
+}
+
+.note-style:hover+img#remove__note{
+   display: block;
+}
+
+img#remove__note:hover  {
+   display: block;
+}
+
+
+
+/*MEDIA QUERIES FOR MEDIUEM DEVICES*/
+/*MEDIA QUERIES FOR MEDIUEM DEVICES*/
+
+@media screen and (max-width: 600px) {
+   .note{
+      display: grid;
+      grid-template-columns: 30px minmax(auto,500px) 50% ;
+   
+   
+   }
+   
+   
+   
+ }
+ 
+/*MEDIA QUERIES FOR SMALL DEVICES*/
+/*MEDIA QUERIES FOR SMALL DEVICES*/
+
+ @media screen and (max-width: 400px) {
+   .note{
+      display: grid;
+      grid-template-columns: 30px minmax(auto,300px) 30% ;
+   
+   
+   }
+   
+  
+   
+ }
+ 
